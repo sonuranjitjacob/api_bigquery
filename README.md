@@ -25,7 +25,7 @@ Requirements for the software and other tools to build, test and push
 
 The code is structured as follows:
 
-    ├── assignment2_api
+   
         docker-compose.yml
         Dockerfile
         README.md
