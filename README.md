@@ -1,4 +1,4 @@
-# Assignment 2 
+# Write API data to Google Bigquery
 
 This repository contains the code to read data from a weather API website, clean and process it and write it to a table in Google Bigquery. It also implements some tests using `pytest`.
 
