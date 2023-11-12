@@ -1,0 +1,19 @@
+# Tests
+This file specifies the tests to be performed for a python job that reads data from an API and 
+loads it into a BigQuery dataset
+
+#read_api_data
+- check if url, key are correct and HTTPS status code == 200
+- check if response is in expected format and schema 
+
+#process_data
+- check if transformed data has expected columns
+- check if transformed data has expected number of rows
+- check if transformed data has expected data types
+- check for missing values
+
+#write_data_to_bigquery
+- check if dataset, table exists in bigquery 
+
+#general
+- performance testing

@@ -1,0 +1,11 @@
+
+#api parameters
+api_url: #insert your URL here
+
+#bigquery credentials
+service_account_file_name: 'key.json'
+
+#bigquery parameters
+project_name: 'api-data'
+dataset_name: 'weather_data'
+table_name: 'hourly_data'
